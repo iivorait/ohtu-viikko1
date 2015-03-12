@@ -99,7 +99,7 @@ public class VarastoTest {
     
     @Test
     public void eiVoiOttaaYlimaaraista() {
-        varasto.lisaaVarastoon(10);
+        varasto.lisaaVarastoon(6);
         assertEquals(6, varasto.otaVarastosta(8), vertailuTarkkuus);
         assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
     }
